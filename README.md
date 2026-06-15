@@ -25,7 +25,18 @@ ______________________________________________________________________
 Most AI in security stops at analyzing output.  
 ASTRO goes further—agents **use memory, documentation, and real tools** to execute workflows the way engineers actually work.
 
-This fork includes review-driven fixes for correctness, reliability, operational hardening, and safer defaults. See [Fork Changes](docs/FORK-CHANGES.md).
+---
+
+## About This Fork
+
+This fork applies review-driven updates to ASTRO:
+
+- Fixes broken API routes, update flows, pagination, stack membership handling, and CLI workflows.
+- Moves blocking work off async paths where practical and adds tighter resource bounds.
+- Hardens auth/session behavior, credential handling, tenant isolation, and tool execution.
+- Updates Docker/deploy defaults, split-secret configuration, dependency ranges, and focused tests.
+
+See [Fork Changes](docs/FORK-CHANGES.md) for the concise change summary and review methodology.
 
 ---
 
